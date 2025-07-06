@@ -1,0 +1,19 @@
+# EditorConfig is awesome: https://EditorConfig.org
+# EditorConfig helps maintain consistent coding styles for multiple developers working on the same project 
+# across various editors and IDEs
+# No Plugin Necessary see https://editorconfig.org/#pre-installed
+# Incase you want to make sure to override your settings install VSC plugin see https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+# top-most EditorConfig file for python https://github.com/editorconfig/editorconfig-core-py/tree/master
+root = true
+
+[*.{py,rst,txt}]
+indent_style = space
+trim_trailing_whitespace = true
+indent_size = 4
+end_of_line = LF
+
+[*.yml]
+indent_style = space
+indent_size = 2
+end_of_line = LF
