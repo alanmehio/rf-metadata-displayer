@@ -1,6 +1,6 @@
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
-from rfsink.signal_manager.data_signal_manager import signal_manager, graph_type_manager
+from rfclient.signal_manager.data_signal_manager import signal_manager, graph_type_manager
 import matplotlib.dates as mdates
 from datetime import datetime
 import numpy as np

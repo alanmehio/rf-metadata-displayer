@@ -1,11 +1,11 @@
 from PySide6 import QtWidgets
 from PySide6.QtWidgets import QMainWindow, QVBoxLayout, QHBoxLayout, QWidget
-from rfsink.widgets.search_layout import SearchGroupBox
-from rfsink.widgets.data_graph_layout import DataGraph3D
+from rfclient.widgets.search_layout import SearchGroupBox
+from rfclient.widgets.data_graph_layout import DataGraph3D
 from PySide6.QtGui import QAction, QActionGroup
-from rfsink.signal_manager.data_signal_manager import graph_type_manager, table_type_manager
+from rfclient.signal_manager.data_signal_manager import graph_type_manager, table_type_manager
 
-from rfsink.widgets.query_result_layout import TableResultsWidget
+from rfclient.widgets.query_result_layout import TableResultsWidget
 
 class MainWindow(QMainWindow):
    def __init__(self):

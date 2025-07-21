@@ -10,7 +10,7 @@ $ rfclient
 '''
 import sys
 from PySide6 import QtWidgets
-from windows.main_window import MainWindow
+from rfclient.windows.main_window import MainWindow
 import argparse
 from . import __version__ # FIXME dynamic versioning ????? how ????
 

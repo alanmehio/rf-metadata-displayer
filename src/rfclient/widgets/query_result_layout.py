@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QWidget, QTableWidget, QTableWidgetItem, QHBoxLayout
 from PySide6.QtCore import Qt
-from rfsink.signal_manager.data_signal_manager import signal_manager
+from rfclient.signal_manager.data_signal_manager import signal_manager
 from PySide6.QtWidgets import QSizePolicy
 
 class TableResultsWidget(QTableWidget):
