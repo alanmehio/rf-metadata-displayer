@@ -58,7 +58,9 @@ urls."Code of Conduct" = "https://github.com/Issamricin/rf-power-analyzer/blob/m
 ### Dependency Constraints, aka Requirements ###
 dependencies = [
   "pyside6>=6.9.0",
-  "flask"
+  "flask",
+  "scipy",
+  "matplotlib"
 ]
 
 ## optional dependency for test or other purpose 

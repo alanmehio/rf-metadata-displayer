@@ -1,8 +1,8 @@
 from PySide6.QtWidgets import QGroupBox, QGridLayout, QLabel, QPushButton, QDoubleSpinBox, QSpacerItem, QSizePolicy
 from PySide6.QtCore import QLocale, Qt
-from rfsink.database.database_query import DataBaseManager
-from rfsink.windows.query_result_window import show_query_results
-from rfsink.signal_manager.data_signal_manager import signal_manager
+from rfclient.windows.query_result_window import show_query_results
+from rfclient.signal_manager.data_signal_manager import signal_manager
+import requests
 
 class SearchGroupBox(QGroupBox):
     
@@ -98,10 +98,11 @@ class SearchGroupBox(QGroupBox):
 
         else:
             self.error_message.setText("")
-            result = DataBaseManager.search_power_frequency(min_power, max_power, min_frequency, max_frequency)
+            result = requests.get(f'http://127.0.0.1:5000/search/{min_power}/{max_power}/{min_frequency}/{max_frequency}')
+
             if result:
-                signal_manager.data_signal.emit(result)
-                show_query_results(result)
+                signal_manager.data_signal.emit(result.json())
+                show_query_results(result.json())
             else:
                 self.error_message.setText("No results !")
         
