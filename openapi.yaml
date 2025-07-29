@@ -1,0 +1,72 @@
+openapi: 3.0.3
+info:
+  title: RF analysis engine API
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:5000
+    description: This is the server holding the database.
+
+paths:
+  /search/{min_power}/{max_power}/{min_frequency}/{max_frequency}:
+    get:
+      summary: Get list of powers and frequencies with their timestamps
+      parameters:
+        - name: min_power
+          in: path
+          required: true
+          description: The minimum range for the power in your search.
+          schema:
+            type: number
+        - name: max_power
+          in: path
+          description: The maximum range for the power in your search.
+          required: true
+          schema:
+            type: number
+        - name: min_frequency
+          in: path
+          description: The minimum range for the frequency in your search.
+          required: true
+          schema:
+            type: number
+        - name: max_frequency
+          in: path
+          description: The maximum range for the frequency in your search.
+          required: true
+          schema:
+            type: number
+      tags:
+        - power/frequency
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Data'
+        '400':
+          description: Invalid parameters or path error
+  
+components:
+  schemas:
+    Data:
+      description: Data of powers and frequencies with their timestamps
+      type: object
+      properties:
+        power:
+          type: number
+          example: 50.00
+        frequency:
+          type: number  
+          example: 106.2
+        time:
+          type: string
+          example: 06-06-2025 12:13:36
+      required:
+        - power
+        - frequency
+
+tags:
+  - name: power/frequency
+    description: Data for the power and frequency with their timestamps.
