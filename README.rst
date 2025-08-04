@@ -27,6 +27,7 @@ already calculated meta data with different search criteria; the search result r
 such as modulation, distance, direction, noise level, phase shift, etc..
 |rf_sink2|
 |rf_sink3|
+|rf-simulator|
 
 Change Log
 ==========
@@ -125,4 +126,6 @@ License
 .. |rf_sink3| image:: https://github.com/alanmehio/rf-surveillance/blob/main/media/rf-sink3.jpeg
                 :alt: RF Surveillance Sink(Client)
 
+.. |rf_simulator| image:: https://github.com/alanmehio/rf-surveillance/blob/main/media/rf-simulator.gif
+                :alt: RF Surveillance Sink(Client)
 
