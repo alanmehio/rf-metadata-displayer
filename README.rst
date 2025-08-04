@@ -27,7 +27,7 @@ already calculated meta data with different search criteria; the search result r
 such as modulation, distance, direction, noise level, phase shift, etc..
 |rf_sink2|
 |rf_sink3|
-|rf-simulator|
+|rf_simulator|
 
 Change Log
 ==========
