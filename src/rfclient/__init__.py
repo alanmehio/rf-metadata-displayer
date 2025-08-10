@@ -1,8 +1,6 @@
 """
 
-| **RF Node**, a *Python Package* Alan explain the node concept here .... 
-
-| Goal of the project is to build a ... node and hub etc...  
+ **RF Metadata Displayer**
   
 """
 

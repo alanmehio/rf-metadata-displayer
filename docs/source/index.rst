@@ -4,7 +4,7 @@ RF Metadata Displayer
 COMMUNITY VERSION
 -----------------
 
-| Welcome to the RF Metadata displayer one of four inter-related application suite 
+| Welcome to the RF Metadata Displayer one of four inter-related application suite 
 | MetaData Displayer is about query and displaying different radio frequency data and AI ML model 
 | detection for different radio frequency fingers print
 
@@ -28,7 +28,7 @@ COMMUNITY VERSION
 
 .. toctree::
    :maxdepth: 2
-   :caption: Development:
+   :caption: Development Guide:
 
    contents/development
    contents/changelog

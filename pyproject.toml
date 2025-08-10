@@ -5,9 +5,9 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "rfclient" # package name same as project name 
+name = "rfmetadata" # package name same as project name 
 version = "1.0.0"
-description = "Radio Frequency Surveillance Node"
+description = "RF MetaData Displayer"
 authors = [
    {name="Iso"}, 
    {name="Alan"}
@@ -59,7 +59,7 @@ urls.Changelog = "https://github.com/alanmehio/rf-metadata-displayer/blob/master
 ### Dependency Constraints, aka Requirements ###
 # see https://python-poetry.org/docs/dependency-specification/#multiple-constraints-project
 dependencies = [
-  "pyside6 (>=6.6.1); python_version >= '3.8' and python_version <= '3.12'",
+  "pyside6",
   "flask",
   "scipy",
   "matplotlib (>=3.10.1); python_version>='3.10' and python_version <='3.13'"
@@ -124,9 +124,9 @@ exclude = [
 
 
 #https://python-poetry.org/docs/pyproject/#scripts
-# we will have the rfclient script installed which will execute the main function in the console module in the rfclient package.
+# we will have the rfmetadata script installed which will execute the main function in the console module in the rfclient package.
 [project.scripts]
-rfclient = 'rfclient.main:main'
+rfmetadata = 'rfclient.main:main'
  
 
 ##############

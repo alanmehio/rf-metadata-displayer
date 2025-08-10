@@ -1,11 +1,10 @@
 '''
 Steps:
-$ pwd
-/home/alan/workspace-python/RTL-SDR/rf-power-analyzer
-$ python -m venv .venv
-$ source ./venv/bin/activate
-$ pip install -e .
-$ rfclient
+>>> pwd
+>>> python -m venv .venv
+>>> source ./venv/bin/activate
+>>> pip install -e .
+>>> rfclient
 
 '''
 import sys

@@ -1,7 +1,4 @@
-Usage
-=====
 
-------------
 Installation
 ------------
 
@@ -20,16 +17,12 @@ Assuming you have 'activated' a `python virtual environment`:
 ---------------
 Simple Use Case 
 ---------------
-
-| Plugin in RTLSDR from  `Nooelec <https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html?srsltid=AfmBOoqFB5e2jf1fsd1I9xCGV9Pz6WiBdZD2RNyXnFQp5zjB3nGYRtPX>`__ 
+You need to start the rfserver first to allow the client to query the database 
 
 .. code-block:: shell
 
-  rfnode  setting.json -vvv -ld /home/alan/tmp
-  **setting.json**  the setting file for frequency range and power threshold 
-| **vvv**: extra verbose 
-| **ld**: log file directory location
-|
+  rfmetadata  
+
 
 
 

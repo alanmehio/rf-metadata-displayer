@@ -12,11 +12,9 @@ COMMUNITY VERSION
 
 
 
-RF Client
-=========
-This application is a GUI application (Desktop) which query the ***RF Analysis Engine** the
-already calculated meta data with different search criteria; the search result reveals signal meta data
-such as modulation, distance, direction, noise level, phase shift, etc..
+| This application is a GUI application (Desktop) which query the ***RF Analysis Engine** 
+
+| The already calculated meta data with different search criteria; the search result reveals signal meta data such as modulation, distance, direction, noise level, phase shift, etc..
 
 |rf_simulator|
 
@@ -34,13 +32,6 @@ License
 
 
 * `GNU Affero General Public License v3.0`_
-
-
-License
-=======
-
-* Free software: GNU Affero General Public License v3.0
-
 
 
 .. LINKS
