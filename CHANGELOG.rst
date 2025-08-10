@@ -1,7 +1,8 @@
+=========
 Changelog
 =========
 
-0.0.1 (YYY-MM-DD)
-=======================================
+1.0.0 (2025-08-10)
+==================
 
-| This is the draft version of the **rf-metadata-displayer** Python Package.
+| This is the first version of the **rf-metadata-displayer** Python Package.
