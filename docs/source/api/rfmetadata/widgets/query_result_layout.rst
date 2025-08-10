@@ -1,7 +1,7 @@
-query_result_window
+query_result_layout
 -------------------
 
-.. automodule:: rfclient.windows.query_result_window
+.. automodule:: rfmetadata.widgets.query_result_layout
    :members:
    :undoc-members:
    :show-inheritance:

@@ -180,9 +180,9 @@ jobs:
           WHEEL_SIZE=$(echo $WHEEL_INFO | cut -d ' ' -f 2)
           echo "WHEEL_SIZE=$WHEEL_SIZE" >> $GITHUB_ENV
 
-          # extract '0.3.2' from 'rfclient-0.3.2-py3-none-any.whl'
-          #echo $WHEEL_NAME | sed -E 's/rfclient-([^ ]+)-py3-none-any.whl/\1/'
-          PEP_VERSION=$(echo $WHEEL_NAME | sed -E 's/rfclient-([^ ]+)-py3-none-any.whl/\1/')
+          # extract '0.3.2' from 'rfmetadata-0.3.2-py3-none-any.whl'
+          #echo $WHEEL_NAME | sed -E 's/rfmetadata-([^ ]+)-py3-none-any.whl/\1/'
+          PEP_VERSION=$(echo $WHEEL_NAME | sed -E 's/rfmetadata-([^ ]+)-py3-none-any.whl/\1/')
           echo "PEP_VERSION=$PEP_VERSION"
           echo "PEP_VERSION=$PEP_VERSION" >> $GITHUB_OUTPUT
           echo "PEP_VERSION=$PEP_VERSION" >> $GITHUB_ENV
@@ -225,7 +225,7 @@ jobs:
           DIST_DIR=dist
           echo "DIST_DIR=${DIST_DIR}" >> $GITHUB_ENV
           mkdir ${DIST_DIR}
-          cp ".tox/${DIST_DIR}/rfclient-${PKG_VERSION}.tar.gz" "${DIST_DIR}"
+          cp ".tox/${DIST_DIR}/rfmetadata-${PKG_VERSION}.tar.gz" "${DIST_DIR}"
           cp "${{ env.WHEEL_PATH }}" "${DIST_DIR}"
           tox -e check -v -s false
 
@@ -303,7 +303,7 @@ jobs:
     uses: ./.github/workflows/docker.yml
     with:
       acceptance_policy: ${{ needs.set_github_outputs.outputs.PIPE_DOCKER_POLICY }}
-      image_slug: "rfclient"
+      image_slug: "rfmetadata"
       # target_stage: "some_stage_alias"  # no stage, means no `--target` flag, on build
       tests_pass: ${{ needs.test_suite.outputs.TEST_RESULT == 'success' }}
       DOCKER_USER: ${{ vars.DOCKER_USER }}

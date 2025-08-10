@@ -4,12 +4,12 @@ Steps:
 >>> python -m venv .venv
 >>> source ./venv/bin/activate
 >>> pip install -e .
->>> rfclient
+>>> rfmetadata
 
 '''
 import sys
 from PySide6 import QtWidgets
-from rfclient.windows.main_window import MainWindow
+from rfmetadata.windows.main_window import MainWindow
 import argparse
 from . import __version__ # FIXME dynamic versioning ????? how ????
 

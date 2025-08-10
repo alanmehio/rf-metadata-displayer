@@ -22,7 +22,7 @@ business_logic:
   - any:
     - changed-files:
       - any-glob-to-any-file:
-        - 'src/rfclient/*'
+        - 'src/rfmetadata/*'
 
 stubs:
   - any:

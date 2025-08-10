@@ -68,7 +68,7 @@ dependencies = [
 
 ## optional dependency for test or other purpose 
 ## Install in edit mode with the test dependencies 
-## $ pip install -e . rfclient[test]
+## $ pip install -e . rfmetadata[test]
 [project.optional-dependencies]
 test = [
   "pytest (>=8.4.0); python_version >='3.9' and python_version <='3.14'",
@@ -89,7 +89,7 @@ docs =[
 # Information required for building (sdist/wheel)
 [tool.poetry]
 packages = [
-    { include = "rfclient", from = "src" },
+    { include = "rfmetadata", from = "src" },
 ]
 
 include = [
@@ -124,9 +124,9 @@ exclude = [
 
 
 #https://python-poetry.org/docs/pyproject/#scripts
-# we will have the rfmetadata script installed which will execute the main function in the console module in the rfclient package.
+# we will have the rfmetadata script installed which will execute the main function in the console module in the rfmetadata package.
 [project.scripts]
-rfmetadata = 'rfclient.main:main'
+rfmetadata = 'rfmetadata.main:main'
  
 
 ##############
@@ -184,4 +184,4 @@ ignore = [
 # see scripts/parse_version.py 
 # we need to update in toml file above  and below also
 [tool.software-release]
-version_variable = "src/rfclient/__init__.py:__version__"
+version_variable = "src/rfmetadata/__init__.py:__version__"

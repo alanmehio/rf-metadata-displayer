@@ -1,7 +1,7 @@
 widgets
 -------
 
-.. automodule:: rfclient.widgets
+.. automodule:: rfmetadata.widgets
    :members:
    :undoc-members:
    :show-inheritance:

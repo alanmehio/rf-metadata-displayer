@@ -22,7 +22,7 @@ COMMUNITY VERSION
    :maxdepth: 2
    :caption: API:
 
-   api/rfclient
+   api/rfmetadata
   
    
 
@@ -32,7 +32,6 @@ COMMUNITY VERSION
 
    contents/development
    contents/changelog
-   contents/code_of_conduct
 
 .. toctree::
    :maxdepth: 2

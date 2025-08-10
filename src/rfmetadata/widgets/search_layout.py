@@ -1,7 +1,7 @@
 from PySide6.QtWidgets import QGroupBox, QGridLayout, QLabel, QPushButton, QDoubleSpinBox, QSpacerItem, QSizePolicy
 from PySide6.QtCore import QLocale, Qt
-from rfclient.windows.query_result_window import show_query_results
-from rfclient.signal_manager.data_signal_manager import signal_manager
+from rfmetadata.windows.query_result_window import show_query_results
+from rfmetadata.signal_manager.data_signal_manager import signal_manager
 import requests
 
 class SearchGroupBox(QGroupBox):

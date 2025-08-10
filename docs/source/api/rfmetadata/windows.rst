@@ -1,7 +1,7 @@
 windows
 -------
 
-.. automodule:: rfclient.windows
+.. automodule:: rfmetadata.windows
    :members:
    :undoc-members:
    :show-inheritance:

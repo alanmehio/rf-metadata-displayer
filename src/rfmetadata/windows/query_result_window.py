@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QMainWindow, QTableWidget, QTableWidgetItem
 from PySide6.QtCore import Qt
-from rfclient.signal_manager.data_signal_manager import table_type_manager
+from rfmetadata.signal_manager.data_signal_manager import table_type_manager
 
 global window_type
 window_type = False

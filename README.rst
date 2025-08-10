@@ -63,17 +63,17 @@ License
 
 .. PyPI
 
-.. |release_version| image:: https://img.shields.io/pypi/v/rfclient
+.. |release_version| image:: https://img.shields.io/pypi/v/rfmetadata
     :alt: Production Version
-    :target: https://pypi.org/project/rfclient/
+    :target: https://pypi.org/project/rfmetadata/
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/rfclient?color=green&label=wheel
+.. |wheel| image:: https://img.shields.io/pypi/wheel/rfmetadata?color=green&label=wheel
     :alt: PyPI - Wheel
-    :target: https://pypi.org/project/rfclient
+    :target: https://pypi.org/project/rfmetadata
 
-.. |supported_versions| image:: https://img.shields.io/pypi/pyversions/rfclient?color=blue&label=python&logo=python&logoColor=%23ccccff
+.. |supported_versions| image:: https://img.shields.io/pypi/pyversions/rfmetadata?color=blue&label=python&logo=python&logoColor=%23ccccff
     :alt: Supported Python versions
-    :target: https://pypi.org/project/rfclient
+    :target: https://pypi.org/project/rfmetadata
 
 .. Github Releases & Tags
 
@@ -105,6 +105,6 @@ License
 .. Local Image as link
 
 
-.. |rf_simulator| image:: https://github.com/alanmehio/rf-metadata-displayer/blob/main/media/rf-simulator.gif
+.. |rf_simulator| image:: https://raw.githubusercontent.com/alanmehio/rf-metadata-displayer/main/media/rf-simulator.gif
                 :alt: RF Metadata Displayer
 

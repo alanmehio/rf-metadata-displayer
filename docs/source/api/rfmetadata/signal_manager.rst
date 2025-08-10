@@ -1,7 +1,7 @@
 signal_manager
 --------------
 
-.. automodule:: rfclient.signal_manager
+.. automodule:: rfmetadata.signal_manager
    :members:
    :undoc-members:
    :show-inheritance:
