@@ -1,5 +1,5 @@
 signal_manager
--------------
+--------------
 
 .. automodule:: rfclient.signal_manager
    :members:
