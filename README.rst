@@ -54,39 +54,41 @@ License
 .. Build Status
 .. Github Actions: Test Workflow Status for specific branch <branch>
 
-.. |build| image:: https://img.shields.io/github/workflow/status/alanmehio/rf-metadata-displayer/Test%20Python%20Package/main?label=build&logo=github-actions&logoColor=%233392FF
+.. |build| image::  https://github.com/alanmehio/rf-metadata-displayer/actions/workflows/ci_cd.yaml/badge.svg
     :alt: GitHub Workflow Status (branch)
-    :target: https://github.com/alanmehio/rf-metadata-displayer/actions/workflows/test.yaml?query=branch%3Amain
+    :target: https://github.com/alanmehio/rf-metadata-displayer/actions
 
 
 .. Documentation
 
-.. |docs| image:: https://img.shields.io/readthedocs/rf-metadata-displayer/latest?logo=readthedocs&logoColor=lightblue
+.. |docs| image::  https://img.shields.io/readthedocs/rf-metadata-displayer/latest?logo=readthedocs&logoColor=lightblue
     :alt: Read the Docs (version)
     :target: https://rf-metadata-displayer.readthedocs.io/en/latest/
+
+.. PyLint
 
 .. |pylint| image:: https://img.shields.io/badge/linting-pylint-yellowgreen
     :target: https://github.com/pylint-dev/pylint
 
 .. PyPI
 
-.. |release_version| image:: https://img.shields.io/pypi/v/rf-metadata-displayer
+.. |release_version| image:: https://img.shields.io/pypi/v/rfclient
     :alt: Production Version
-    :target: https://pypi.org/project/rf-metadata-displayer/
+    :target: https://pypi.org/project/rfclient/
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/rf-metadata-displayer?color=green&label=wheel
+.. |wheel| image:: https://img.shields.io/pypi/wheel/rfclient?color=green&label=wheel
     :alt: PyPI - Wheel
-    :target: https://pypi.org/project/rf-metadata-displayer
+    :target: https://pypi.org/project/rfclient
 
-.. |supported_versions| image:: https://img.shields.io/pypi/pyversions/rf-metadata-displayer?color=blue&label=python&logo=python&logoColor=%23ccccff
+.. |supported_versions| image:: https://img.shields.io/pypi/pyversions/rfclient?color=blue&label=python&logo=python&logoColor=%23ccccff
     :alt: Supported Python versions
-    :target: https://pypi.org/project/rf-metadata-displayer
+    :target: https://pypi.org/project/rfclient
 
 .. Github Releases & Tags
 
-.. |commits_since_specific_tag_on_main| image:: https://img.shields.io/github/commits-since/alanmehio/rf-metadata-displayer/v0.0.1/main?color=blue&logo=github
+.. |commits_since_specific_tag_on_main| image:: https://img.shields.io/github/commits-since/alanmehio/rf-metadata-displayer/1.0.0/main?color=blue&logo=github
     :alt: GitHub commits since tagged version (branch)
-    :target: https://github.com/alanmehio/rf-metadata-displayer/compare/v0.0.1..main
+    :target: https://github.com/alanmehio/rf-metadata-displayer/compare/1.0.0..main
 
 .. |commits_since_latest_github_release| image:: https://img.shields.io/github/commits-since/alanmehio/rf-metadata-displayer/latest?color=blue&logo=semver&sort=semver
     :alt: GitHub commits since latest release (by SemVer)
