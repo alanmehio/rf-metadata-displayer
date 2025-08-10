@@ -59,7 +59,7 @@ urls.Changelog = "https://github.com/alanmehio/rf-metadata-displayer/blob/master
 ### Dependency Constraints, aka Requirements ###
 # see https://python-poetry.org/docs/dependency-specification/#multiple-constraints-project
 dependencies = [
-  "pyside6",
+  "pyside6 (>=6.6.1); python_version >= '3.8' and python_version <= '3.12'",
   "flask",
   "scipy",
   "matplotlib (>=3.10.1); python_version>='3.10' and python_version <='3.13'"
