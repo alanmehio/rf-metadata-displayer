@@ -1,10 +1,8 @@
-RF Power Analyzer Version 1
-===========================
+RF MetaData Displayer
+=====================
 
-| Radio Frequency Surveillance Analyzer. Alan ????
-
-
-------
+COMMUNITY VERSION
+-----------------
 
 .. start-badges see https://shields.io/badges and collection see https://github.com/inttter/md-badges
 
@@ -14,19 +12,12 @@ RF Power Analyzer Version 1
 
 
 
-RF-Server
-=========
-REST API server using flask. Alan: explain more
-version 2 AI ML fingerprint ????
-
-
 RF Client
 =========
-This application is a GUI application (Desktop) which query the RF central(sever) to extract the
+This application is a GUI application (Desktop) which query the ***RF Analysis Engine** the
 already calculated meta data with different search criteria; the search result reveals signal meta data
 such as modulation, distance, direction, noise level, phase shift, etc..
-|rf_sink2|
-|rf_sink3|
+
 |rf_simulator|
 
 Change Log
@@ -120,12 +111,7 @@ License
 
 .. Local Image as link
 
-.. |rf_sink2| image:: https://github.com/alanmehio/rf-metadata-displayer/blob/main/media/rf-sink2.jpeg
-                :alt: RF Surveillance Sink(Client)
-
-.. |rf_sink3| image:: https://github.com/alanmehio/rf-metadata-displayer/blob/main/media/rf-sink3.jpeg
-                :alt: RF Surveillance Sink(Client)
 
 .. |rf_simulator| image:: https://github.com/alanmehio/rf-metadata-displayer/blob/main/media/rf-simulator.gif
-                :alt: RF Surveillance Sink(Client)
+                :alt: RF Metadata Displayer
 
