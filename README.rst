@@ -77,7 +77,7 @@ License
 
 .. Github Releases & Tags
 
-.. |commits_since_specific_tag_on_main| image:: https://img.shields.io/github/commits-since/alanmehio/rf-metadata-displayer/1.0.0/main?color=blue&logo=github
+.. |commits_since_specific_tag_on_main| image:: https://img.shields.io/github/commits-since/alanmehio/rf-metadata-displayer/release-1.0.0/main?color=blue&logo=github
     :alt: GitHub commits since tagged version (branch)
     :target: https://github.com/alanmehio/rf-metadata-displayer/compare/1.0.0..main
 
