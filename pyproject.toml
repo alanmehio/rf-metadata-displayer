@@ -62,7 +62,8 @@ dependencies = [
   "pyside6 (>=6.6.1); python_version >= '3.8' and python_version <= '3.12'",
   "flask",
   "scipy",
-  "matplotlib (>=3.10.1); python_version>='3.10' and python_version <='3.13'"
+  "matplotlib (>=3.10.1); python_version>='3.10' and python_version <='3.13'",
+  "requests"
 ]
 
 
