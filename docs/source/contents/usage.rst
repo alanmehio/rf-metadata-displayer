@@ -33,9 +33,9 @@ Then start the rfserver to allow the client to query the database.
 
   rfserver  
 
-.. image:: _static/rfserver.png
+.. image:: ../_static/rfserver.png
    :alt: running the server.
-   :width: 400px
+   :width: 900px
    :align: center
 
 Now you can run the rfmetadata and query the data.
@@ -44,23 +44,23 @@ Now you can run the rfmetadata and query the data.
 
   rfmetadata
 
-.. image:: _static/rfmetadata.png
-   :alt: running the server.
-   :width: 400px
+.. image:: ../_static/rfmetadata.png
+   :alt: running the displayer.
+   :width: 900px
    :align: center
 
 See the server when the displayer queries it:
 
-.. image:: _static/rfserverQuery.png
-   :alt: running the server.
-   :width: 400px
+.. image:: ../_static/rfserverQuery.png
+   :alt: server responses.
+   :width: 900px
    :align: center
 
 If you don't run the server and you try to search in the displayer, you will get errors:
 
-.. image:: _static/rfmetadataErrors.png
-   :alt: running the server.
-   :width: 400px
+.. image:: ../_static/rfmetadataErrors.png
+   :alt: rfmetada without the server.
+   :width: 900px
    :align: center
 
 --------------
