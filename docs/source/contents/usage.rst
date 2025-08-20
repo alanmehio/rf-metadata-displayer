@@ -49,7 +49,7 @@ Now you can run the rfmetadata and query the data.
    :width: 900px
    :align: center
 
-See the server when the displayer queries it:
+See the server's response when the displayer application queries it:
 
 .. image:: ../_static/rfserverQuery.png
    :alt: server responses.
