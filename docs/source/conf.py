@@ -131,3 +131,4 @@ source_suffix = {
     '.rst': 'restructuredtext'
 }
 
+html_static_path = ["_static"]
