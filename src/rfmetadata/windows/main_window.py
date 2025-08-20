@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(result_widget)
 
 
-        self.setWindowTitle("RF Sink Viewer")
+        self.setWindowTitle("Rf Metadata Displayer")
         self.resize(800, 600)
         
         self.create_menu()

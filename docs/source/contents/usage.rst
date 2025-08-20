@@ -17,14 +17,51 @@ Assuming you have 'activated' a `python virtual environment`:
 ---------------
 Simple Use Case 
 ---------------
-You need to start the rfserver first to allow the client to query the database 
+
+This application needs the **rfserver** to be live. The rfserver application creates the database for the user,
+queries it and sends the response through the flask api.
+
+First install the rfserver.
 
 .. code-block:: shell
 
-  rfmetadata  
+  python -m pip install rfserver
 
+Then start the rfserver to allow the client to query the database.
 
+.. code-block:: shell
 
+  rfserver  
+
+.. image:: ../_static/rfserver.png
+   :alt: running the server.
+   :width: 900px
+   :align: center
+
+Now you can run the rfmetadata and query the data.
+
+.. code-block:: shell
+
+  rfmetadata
+
+.. image:: ../_static/rfmetadata.png
+   :alt: running the displayer.
+   :width: 900px
+   :align: center
+
+See the server's response when the displayer application queries it:
+
+.. image:: ../_static/rfserverQuery.png
+   :alt: server responses.
+   :width: 900px
+   :align: center
+
+If you don't run the server and you try to search in the displayer, you will get errors:
+
+.. image:: ../_static/rfmetadataErrors.png
+   :alt: rfmetada without the server.
+   :width: 900px
+   :align: center
 
 --------------
 Running PyTest 
@@ -33,7 +70,7 @@ Running PyTest
 
 .. code-block:: shell
   
-  python -m pip install -e . rfnode[test]
+  python -m pip install -e . rfmetadata[test]
   pytest
 
 
